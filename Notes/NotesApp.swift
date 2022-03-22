@@ -7,11 +7,19 @@
 
 import SwiftUI
 
+/* MVVM
+ Model - data
+ View - UI
+ ViewModel - manager
+ */
+
 @main
 struct NotesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                NotesView()
+            }
         }
     }
 }

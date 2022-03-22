@@ -75,6 +75,7 @@
 		97CA664F27E9D25F00366594 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				9750D64427E9E3220078039C /* ViewModel */,
 				97CA665027E9D25F00366594 /* NotesApp.swift */,
 				9750D64127E9DAF10078039C /* Model */,
 				97CA665E27E9D2D100366594 /* Views */,
@@ -98,7 +99,6 @@
 				97CA665F27E9D2F400366594 /* NotesView.swift */,
 				97CA666127E9D4B700366594 /* ListRowView.swift */,
 				97CA666327E9D73B00366594 /* AddView.swift */,
-				9750D64427E9E3220078039C /* ViewModel */,
 			);
 			path = Views;
 			sourceTree = "<group>";
